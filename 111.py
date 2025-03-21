@@ -4,6 +4,8 @@ import sqlite3  # Importing sqlite3 for database handling
 import matplotlib.pyplot as plt  # Importing matplotlib for visualization
 import socket  # Importing socket to fetch system's hostname and IP address
 
+print("Name: Eladio")
+
 income_df = pd.read_excel('income.xlsx')
 expenses_df = pd.read_csv('expenses.txt', sep=' ')
  
